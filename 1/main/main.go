@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	a := []int{1, 1, 1, 1, 1}
-	b := []int{1, 1, 1, 1, 1}
+	a := []int{5, 9, 3, 8, 6, 5}
+	b := []int{3, 5, 5, 9, 8, 6}
 	result := true
 	if len(a) == len(b) {
 		for i := 0; i < len(a); i++ {
