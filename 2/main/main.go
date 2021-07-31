@@ -13,7 +13,6 @@ func main() {
 }
 
 func mergeSort(arr []int) []int {
-	fmt.Println(arr)
 	if len(arr) < 2 {
 		return arr
 	}
@@ -21,7 +20,6 @@ func mergeSort(arr []int) []int {
 	m2 := arr[len(arr)/2:]
 	l := mergeSort(m1)
 	r := mergeSort(m2)
-	fmt.Println(r)
 	return merge(l, r)
 }
 
