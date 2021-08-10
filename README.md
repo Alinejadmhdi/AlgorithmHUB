@@ -11,4 +11,4 @@ Simple RECURSIVE MergeSort [MergeSort wiki](https://en.wikipedia.org/wiki/Merge_
 ## Problem 3: BinarySearch in Golang
 Simple RECURSIVE BinarySearch without loop [BinarySearch wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm) Θ(lg(n)) by Master's theorem case 2
 ## Problem 4: Exponentiation in Golang
-Simple RECURSIVE Power for integers [BinarySearch wiki](https://en.wikipedia.org/wiki/Exponentiation) Θ(lg(n)) by Master's theorem case 2
+Simple RECURSIVE Power for integers [Exponentiation wiki](https://en.wikipedia.org/wiki/Exponentiation) Θ(lg(n)) by Master's theorem case 2
