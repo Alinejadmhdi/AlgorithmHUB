@@ -10,3 +10,5 @@ Given two given integer arrays of any length without sorting them, the task is t
 Simple RECURSIVE MergeSort [MergeSort wiki](https://en.wikipedia.org/wiki/Merge_sort) Θ(nlg(n)) by Master's theorem case 2
 ## Problem 3: BinarySearch in Golang
 Simple RECURSIVE BinarySearch without loop [BinarySearch wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm) Θ(lg(n)) by Master's theorem case 2
+## Problem 4: Exponentiation in Golang
+Simple RECURSIVE Power for integers [BinarySearch wiki](https://en.wikipedia.org/wiki/Exponentiation) Θ(lg(n)) by Master's theorem case 2
