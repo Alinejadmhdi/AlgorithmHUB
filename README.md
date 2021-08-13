@@ -16,3 +16,6 @@ Simple RECURSIVE Power for integers [Exponentiation wiki](https://en.wikipedia.o
 Simple RECURSIVE Fibonacci [Fibonacci wiki](https://en.wikipedia.org/wiki/Fibonacci_number). *Growth Order*: **Θ(n)** by **Master's theorem** case 1 (This theta is for calling the Fibonacci function **once** which I explained in the code, but the growth order for the Naive Recursive Algorithm is **Ω(φ^n)**(big Omega of Phi(Golden Ratio) powered by n))
 ## Problem 6: Matrix multiplication in Golang
 Simple Matrix multiplication [Matrix multiplication wiki](https://en.wikipedia.org/wiki/Matrix_multiplication).
+## Problem 7: Fibonacci with Matrix multiplication in Golang
+RECURSIVE Fibonacci using Matrix multiplication (If we want to compute the nth Fibonacci number we just power the matrix M=[1,1,/n,1,0] n times and we get 
+M=[Fn+1,Fn,/n,Fn,Fn−1]). *Growth Order*: **Θ(lg(n))** (Also wrote the algorithm for the nth number of Fibonacci sequence with different beginning numbers )
