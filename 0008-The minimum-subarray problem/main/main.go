@@ -48,3 +48,40 @@ func findMin(first, last int, changes []int) (int, int, int) {
 		}
 	}
 }
+
+//if you only need the sum of subarray not the indexes
+
+// func cross(changes []int, first, mid, last int)  int {
+// 	var leftsum, sum, rightsum int
+// 	for i := mid; i >= first; i-- {
+// 		sum += changes[i]
+// 		if sum < leftsum {
+// 			leftsum = sum
+// 		}
+// 	}
+// 	sum = 0
+// 	for j := mid + 1; j <= last; j++ {
+// 		sum += changes[j]
+// 		if sum < rightsum {
+// 			rightsum = sum
+// 		}
+// 	}
+// 	return leftsum + rightsum
+// }
+// func findMin(first, last int, changes []int) int {
+// 	if first == last {
+// 		return changes[first]
+// 	} else {
+// 		mid := (last + first) / 2
+// 		leftsum := findMin(first, mid, changes)
+// 		rightsum := findMin(mid+1, last, changes)
+// 		crosssum := cross(changes, first, mid, last)
+// 		if leftsum < rightsum && leftsum < crosssum {
+// 			return leftsum
+// 		} else if rightsum < leftsum && rightsum < crosssum {
+// 			return rightsum
+// 		} else {
+// 			return crosssum
+// 		}
+// 	}
+// }
