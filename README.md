@@ -4,7 +4,7 @@
 Solving Algorithm Problem in Algorithm Hub
 
 My daily solving algorithms with **Golang**
-## Problem 1: Check if two arrays are equal or not 
+## Problem 1: Check if two arrays are equal or not in Golang
 Given two given integer arrays of any length without sorting them, the task is to find if the given arrays are equal or not. Two arrays are said to be equal if both of them contain the same set of elements. *Growth Order*: **O(n^2)**
 ## Problem 2: MergeSort in Golang
 Simple RECURSIVE MergeSort [MergeSort wiki](https://en.wikipedia.org/wiki/Merge_sort). *Growth Order*: **Θ(nlg(n))** by **Master's theorem** case 2
@@ -19,5 +19,5 @@ Simple Matrix multiplication [Matrix multiplication wiki](https://en.wikipedia.o
 ## Problem 7: Fibonacci with Matrix multiplication in Golang
 RECURSIVE Fibonacci using Matrix multiplication (If we want to compute the nth Fibonacci number we just power the matrix M=[1,1,/n,1,0] n times and we get 
 M=[Fn+1,Fn,/n,Fn,Fn−1]). *Growth Order*: **Θ(lg(n))** (Also wrote the algorithm for the nth number of Fibonacci sequence with different beginning numbers )
-## Problem 8: The minimum-subarray problem(Maximum subarray problem)
+## Problem 8: The minimum-subarray problem(Maximum subarray problem) in Golang
 RECURSIVE finding minimum-subarray(maximum-subarray)[Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem). *Growth Order*: **Θ(nlg(n))** by **Master's theorem** case 2
