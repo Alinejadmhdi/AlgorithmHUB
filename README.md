@@ -19,3 +19,5 @@ Simple Matrix multiplication [Matrix multiplication wiki](https://en.wikipedia.o
 ## Problem 7: Fibonacci with Matrix multiplication in Golang
 RECURSIVE Fibonacci using Matrix multiplication (If we want to compute the nth Fibonacci number we just power the matrix M=[1,1,/n,1,0] n times and we get 
 M=[Fn+1,Fn,/n,Fn,Fn−1]). *Growth Order*: **Θ(lg(n))** (Also wrote the algorithm for the nth number of Fibonacci sequence with different beginning numbers )
+## Problem 8: The minimum-subarray problem(Maximum subarray problem)
+RECURSIVE finding minimum-subarray(maximum-subarray)[Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem). *Growth Order*: **Θ(nlg(n))** by **Master's theorem** case 2
