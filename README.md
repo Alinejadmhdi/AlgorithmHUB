@@ -21,3 +21,5 @@ RECURSIVE Fibonacci using Matrix multiplication (If we want to compute the nth F
 M=[Fn+1,Fn,/n,Fn,Fn−1]). *Growth Order*: **Θ(lg(n))** (Also wrote the algorithm for the nth number of Fibonacci sequence with different beginning numbers )
 ## Problem 8: The minimum-subarray problem(Maximum subarray problem) in Golang
 RECURSIVE finding minimum-subarray(maximum-subarray)[Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem). *Growth Order*: **Θ(nlg(n))** by **Master's theorem** case 2
+## Problem 9: Recursive squared matrix multiplication in Golang
+RECURSIVE Matrix multiplication [Matrix multiplication wiki](https://en.wikipedia.org/wiki/Matrix_multiplication). *Growth Order*: **Θ(n^3)** by **Master's theorem** case 3 and this simple divide-and-conquer approach is no faster than the straightforward matrix multiplication procedure.
