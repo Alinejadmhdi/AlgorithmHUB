@@ -23,3 +23,6 @@ M=[Fn+1,Fn,/n,Fn,Fn−1]). *Growth Order*: **Θ(lg(n))** (Also wrote the algorit
 RECURSIVE finding minimum-subarray(maximum-subarray)[Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem). *Growth Order*: **Θ(nlg(n))** by **Master's theorem** case 2
 ## Problem 9: Recursive squared matrix multiplication in Golang
 RECURSIVE Matrix multiplication [Matrix multiplication wiki](https://en.wikipedia.org/wiki/Matrix_multiplication). *Growth Order*: **Θ(n^3)** by **Master's theorem** case 3 and this simple divide-and-conquer approach is no faster than the straightforward matrix multiplication procedure.
+## Problem 10: Strassen algorithm for squared matrix multiplication in Golang
+Strassen implementation [Strassen algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm). *Growth Order*: **Θ(n^2.8)** by **Master's theorem** case 3
+It is slightly faster than the other two methods.
