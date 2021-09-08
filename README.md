@@ -24,5 +24,5 @@ RECURSIVE finding minimum-subarray(maximum-subarray)[Maximum subarray problem](h
 ## Problem 9: Recursive squared matrix multiplication in Golang
 RECURSIVE Matrix multiplication [Matrix multiplication wiki](https://en.wikipedia.org/wiki/Matrix_multiplication). *Growth Order*: **Θ(n^3)** by **Master's theorem** case 3 and this simple divide-and-conquer approach is no faster than the straightforward matrix multiplication procedure.
 ## Problem 10: Strassen algorithm for squared matrix multiplication in Golang
-Strassen implementation [Strassen algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm). *Growth Order*: **Θ(n^2.8)** by **Master's theorem** case 3
+Strassen implementation [Strassen algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm). *Growth Order*: **Θ(n^2.8)** by **Master's theorem** case 1
 It is slightly faster than the other two methods.
